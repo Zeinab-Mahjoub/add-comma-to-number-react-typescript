@@ -1,10 +1,5 @@
 import React, {useMemo} from 'react';
 
-type Human = {
-    name: string
-    email: string
-}
-
 export default function (input: string) {
     if (input == undefined)
         return;
